@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(4, 175, 175);
+}
+.container{
+    width: 260px;
+    /* height: 125px; */
+    padding: 30px;
+    background-color: white;
+    margin-left: 500px;
+    margin-top: 100px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.container h1{
+    margin-left: 55px;    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.inputs{
+    display: flex;
+    flex-direction: row;
+}
+.inputs input{
+    outline: none;
+    width: 250px;
+    padding: 6px 0px;
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+.inputs button{
+    margin: 0px 5px;
+    background-color: rgb(15, 15, 88);
+    color: white;
+    outline: none;
+    padding: 3px 9px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.text ul{
+    position: relative;
+    background-color:  rgb(15, 15, 88);
+    color: white;
+    font-size: 17px;
+    text-align: left;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: white;
+}
